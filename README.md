@@ -265,17 +265,6 @@ Tests include:
 
 ---
 
-# 📦 Submission Notes
-
-This project is submitted as requested:
-
-* **ZIP file** or **Git repo link**
-* Includes: full source code, KB, Dockerfile, tests, README
-* LLM calls are optional — mock fallback supports full offline execution
-* Clean modular architecture demonstrates production thinking
-
----
-
 # 📞 Contact
 
 Feel free to reach out if any clarifications are needed!
