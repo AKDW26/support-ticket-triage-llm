@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ISSUE-101",
+    "title": "Checkout error 500 on mobile",
+    "category": "Bug",
+    "symptoms": [
+      "500 error",
+      "mobile",
+      "checkout"
+    ],
+    "recommended_action": "Escalate to payments team; link incident INC-2023-09-10",
+    "content": "Users see 500 when checking out on mobile under heavy load."
+  },
+  {
+    "id": "ISSUE-102",
+    "title": "Payment declined due to card limits",
+    "category": "Billing",
+    "symptoms": [
+      "payment declined",
+      "card"
+    ],
+    "recommended_action": "Advise user to contact bank; retry with another card",
+    "content": "Some banks decline payments for certain merchants."
+  },
+  {
+    "id": "ISSUE-103",
+    "title": "Login fails with invalid session",
+    "category": "Login",
+    "symptoms": [
+      "login",
+      "session",
+      "401"
+    ],
+    "recommended_action": "Ask user to clear cookies and retry; investigate session store",
+    "content": "Expired or invalid session tokens can cause 401/invalid login."
+  },
+  {
+    "id": "ISSUE-104",
+    "title": "Slow API responses during peak",
+    "category": "Performance",
+    "symptoms": [
+      "slow",
+      "latency",
+      "timeout"
+    ],
+    "recommended_action": "Investigate autoscaling and infra; add retries",
+    "content": "API latency increases when CPU saturates."
+  },
+  {
+    "id": "ISSUE-105",
+    "title": "SDK throws TypeError on init",
+    "category": "Technical",
+    "symptoms": [
+      "sdk",
+      "typeerror",
+      "init"
+    ],
+    "recommended_action": "Patch SDK release and notify customers",
+    "content": "Certain versions of SDK fail when config is missing."
+  },
+  {
+    "id": "ISSUE-106",
+    "title": "Two-factor authentication setup issues",
+    "category": "Account",
+    "symptoms": [
+      "2FA",
+      "two-factor",
+      "sms"
+    ],
+    "recommended_action": "Guide user through recovery flow",
+    "content": "Users sometimes don't receive SMS codes."
+  },
+  {
+    "id": "ISSUE-107",
+    "title": "Invoice line-item confusion",
+    "category": "Billing",
+    "symptoms": [
+      "invoice",
+      "charge",
+      "billing"
+    ],
+    "recommended_action": "Attach invoice explanation article",
+    "content": "Customers misunderstand prorated charges."
+  },
+  {
+    "id": "ISSUE-108",
+    "title": "Integration with XYZ times out",
+    "category": "Technical",
+    "symptoms": [
+      "integration",
+      "timeout",
+      "xyz"
+    ],
+    "recommended_action": "Increase timeout and add retries",
+    "content": "Third-party XYZ occasionally times out."
+  },
+  {
+    "id": "ISSUE-109",
+    "title": "Data export failing for large accounts",
+    "category": "Bug",
+    "symptoms": [
+      "export",
+      "data",
+      "timeout"
+    ],
+    "recommended_action": "Increase job memory and queue",
+    "content": "Large exports may hit memory limits."
+  },
+  {
+    "id": "ISSUE-110",
+    "title": "Password reset email not received",
+    "category": "Account",
+    "symptoms": [
+      "password",
+      "reset",
+      "email"
+    ],
+    "recommended_action": "Check email provider and resend link",
+    "content": "Some email providers mark reset emails as spam."
+  }
+]
